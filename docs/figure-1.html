@@ -45,8 +45,63 @@
   </nav>
 
   <!-- main body code -->
-  <h1>City Latitude vs. Maximum Daily Temperature</h1>
-  <img src="Images/Fig1.png" alt="Latitude Max Temp Graph">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <h1>City Latitude vs. Maximum Daily Temperature</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-fluid" src="Images/Fig1.png">
+          </div>
+          <div class="col-md-8">
+            <p>In this case, common knowledge is borne out. There is a very clear trend of maximum temperature for the day
+              increasing as latitude approaches zero, indicating nearness to the equator. There is also a slight advantage in 
+              temperature for cities in the northern hemisphere, likely due to the fact that at time of data collection, the northern
+              hemisphere was in the middle of summer. 
+            </p>
+          </div>
+        </div>
+        </div>
+      <div class="col-md-4" id="sidebar">
+        <div class="row">
+          <h2>Visualizations:</h2>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="figure-1.html">
+              <img src="Images/Fig1.png"
+                  class="img-fluid"
+                  id="selected">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="figure-2.html">
+              <img src="Images/Fig2.png"
+                  class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="figure-3.html">
+              <img src="Images/Fig3.png"
+                  class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="figure-4.html">
+              <img src="Images/Fig4.png"
+                  class="img-fluid">
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
   <!-- bootstrap elements script -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
