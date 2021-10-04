@@ -45,8 +45,62 @@
   </nav>
 
   <!-- main body -->
-  <h1>City Latitude vs. Cloudcover Percentage</h1>
-  <img src="Images/Fig3.png" alt="Latitude cloudiness Graph">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <h1>City Latitude vs. Cloudcover Percentage</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-fluid" src="Images/Fig3.png">
+          </div>
+          <div class="col-md-8">
+            <p>In this plot there is no discernable trend indicating a relationship between latitude and cloudiness. If anything, 
+              there may be a very slight preference for cities to be either fully cloudy or have clear skies, but on the whole
+              it seems likely that the primary contributing factors to cloudiness are local.
+            </p>
+          </div>
+        </div>
+        </div>
+      <div class="col-md-4" id="sidebar">
+        <div class="row">
+          <h2>Visualizations:</h2>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="figure-1.html">
+              <img src="Images/Fig1.png"
+                  class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="figure-2.html">
+              <img src="Images/Fig2.png"
+                  class="img-fluid">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <a href="figure-3.html">
+              <img src="Images/Fig3.png"
+                  class="img-fluid"
+                  id="selected">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a href="figure-4.html">
+              <img src="Images/Fig4.png"
+                  class="img-fluid">
+            </a>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
   <!-- bootstrap elements script -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
