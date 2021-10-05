@@ -29,3 +29,30 @@ Use the existing Bootstrap class to define it as a navbar with a dropdown menu i
 Create navbar-items with links to the Home, Comparisons, and Data pages.
 
 Use the dropdown-menu class to create a dropdown selection for the 4 visualization pages and assign a dropdown-item to each page.
+
+## Landing Page
+
+Name the file for this page 'index.html'.
+
+In the \<head> section, entitle the page 'Landing Page' and reference the Bootstrap style page and the 'style.css' file.
+
+In the \<body> section, place the code for the navbar.
+
+For the content of the page, use a Bootstrap grid.
+
+The first 'row' div contains one column allocated 2/3 of the container for the primary page content on the left with the remaining 1/3 being the 'sidebar' on the right.
+
+### Main Content
+
+In the left-hand column there are 2 rows with the first containing the page header describing project.
+
+The second row contains 2 columns; one on the left with an example image of one of the plots and one on the right with a summary of the project, its means, and its goals.
+
+### Sidebar
+
+The right-hand column contains the 'sidebar' for the page displaying the 4 visualizations.
+
+This section has two rows with each row comprised of two column sections.
+
+In each of the sub-columns there is an image of one of the plot visualizations with a class of 'img-fluid' so that they will scale themselves properly to the viewport size.
+
