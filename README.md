@@ -56,3 +56,46 @@ This section has two rows with each row comprised of two column sections.
 
 In each of the sub-columns there is an image of one of the plot visualizations with a class of 'img-fluid' so that they will scale themselves properly to the viewport size.
 
+Each image must be placed inside an \<a> tag with a link to the corresponding page.
+
+## Data Page
+
+In a python script use the pandas to_html() function to convert the csv file of the project's source data to an html table.
+
+Repeat the \<head> section from the previous page, adjusting the page title to fit.
+
+Place the navbar code followed by a descriptive header and short explanation in the \<body>.
+
+Enclose the generated table code within a Bootstrap 'table-responsive' \<div> tag.
+
+## Visualization Pages
+
+Repeat the code from the Landing Page, substituting corresponding page titles, headers, images, and explanations for each visualization.
+
+On each visualization, in the primary \<img> add an 'onclick' attribute that will load the image in a new tab for easier inspection.  Add a line of text below the image explaining this option.
+
+For each visualization, on its page, add an 'id' to the \<imag> in the sidebar corresponding to that page.
+
+Use that 'id' attribute in the CSS style page to add a border to the image such that each visualization page has a visible indication of which page you are currently browsing.
+
+## Comparisons Page
+
+Repeat the code for the \<head> and the navbar from the other pages.
+
+Under the navbar code add a header and a short description of the page.
+
+For the main content, create a Bootstrap grid with two rows of two columns each.
+
+In each column place a copy of one of the images and an \<h2> describing which image it is.
+
+For each image, enclose it in an \<a> tag with a link to the corresponding visualization page.
+
+## CSS Style file
+
+Apply a global background-color for all \<body> tags to apply a uniform theme. 
+
+For the \#sidebar, give a background color distinct from the \<body> and a box-shadow to serve as a border.
+
+Apply a different background-color for all Bootstrap containers.
+
+Give a border to the \#selected image for each visualization page's sidebar.
